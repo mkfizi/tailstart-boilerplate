@@ -2,6 +2,7 @@
 A lightweight boilerplate for quickly starting web development projects with TailwindCSS.
 
 [View Demo](https://mkfizi.github.io/tailwind-starter-kit/preview?kit=boilerplate)
+
 [View Tailwind Starter Kit](https://mkfizi.github.io/tailwind-starter-kit)
 
 This starter kit is also available in other versions.
