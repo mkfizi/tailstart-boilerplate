@@ -872,11 +872,6 @@ body{
     padding-right: 2rem;
   }
 
-  .sm\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
   .sm\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -894,11 +889,6 @@ body{
 }
 
 @media (min-width: 1024px) {
-  .lg\:py-48 {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-
   .lg\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
