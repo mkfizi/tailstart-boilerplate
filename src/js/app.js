@@ -1,15 +1,15 @@
 /**
  * --------------------------------------------------------------------------
- * Tailwind Starter Kit - Boilerplate v0.1.0: app.js
- * Licensed under MIT (https://github.com/mkfizi/tailwind-starter-kit-boilerplate/blob/main/LICENSE)
+ * Tailstart - Boilerplate v0.1.1: app.js
+ * Licensed under MIT (https://github.com/mkfizi/tailstart-boilerplate/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
 'use strict';
 
 let app = {
-    name: 'Tailwind Starter Kit - Boilerplate',
-    version: '0.1.0',
+    name: 'Tailstart - Boilerplate',
+    version: '0.1.1',
 };
 
 app.elements = {
