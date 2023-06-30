@@ -1,5 +1,5 @@
-# Tailwind Starter Kit - Boilerplate
-A lightweight boilerplate for quickly starting web development projects with TailwindCSS.
+# Tailstart - Boilerplate
+TailwindCSS boilerplate for quickly starting web development projects.
 
 ## Features
 * Dark mode toggle.
@@ -21,7 +21,7 @@ npm run watch
 ```
 
 ## Usage
-This starter kit serves as a starting point for creating web applications or sites. It eliminates the need to configure the basics of web development when using TailwindCSS. It is designed to be adaptable to any development stacks and therefore does not include any specific bundler tools such as Vite, Webpack, or Parcel.
+This starter kit serves as a starting point for creating web applications or sites. It eliminates the need for base configuration of web project development when using TailwindCSS. It is designed to be adaptable to any development stacks and therefore does not include any specific bundler tools such as Vite, Webpack, or Parcel.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
