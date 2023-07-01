@@ -13,10 +13,9 @@ let app = {
 };
 
 app.elements = {
-    navbar: document.getElementById('navbar'),
-    footerCurrentYear: document.getElementById('footerCurrentYear'),
-    footerAppName: document.getElementById('footerAppName'),
-    footerAppVersion: document.getElementById('footerAppVersion'),
+    footerCurrentYear: document.getElementById('footer-current-year'),
+    footerAppName: document.getElementById('footer-app-name'),
+    footerAppVersion: document.getElementById('footer-app-version'),
 };
 
 app.init = () => {
@@ -33,7 +32,7 @@ app.event = {
     handleDocumentClick: event => {
         const target = event.target;
 
-        if (target.closest('[id="darkModeToggle"]')) {
+        if (target.closest('[id="dark-mode-toggle"]')) {
             app.view.updateDarkMode();
         }
     },
