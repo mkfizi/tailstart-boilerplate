@@ -42,7 +42,7 @@ app.event = {
 
     handleWindowResize: () => {
         app.view.toggleViewportHeight();
-    },
+    }
 };
 
 app.view = {
@@ -78,7 +78,7 @@ app.view = {
         if (app.elements.footerAppVersion) {
             app.elements.footerAppVersion.innerHTML = app.version;
         }
-    },
+    }
 };
 
 app.util = {
@@ -91,7 +91,7 @@ app.util = {
                 transition.classList.remove('transition-none');
             }, 150);
         }
-    },
+    }
 };
 
 app.init();
