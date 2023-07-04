@@ -1,19 +1,20 @@
 /**
  * --------------------------------------------------------------------------
- * Tailstart - Boilerplate v0.1.1: app.js
- * Licensed under MIT (https://github.com/mkfizi/tailstart-boilerplate/blob/main/LICENSE)
+ * Tailstart Kit - Boilerplate v0.2.0: app.js
+ * Licensed under MIT (https://github.com/mkfizi/tailstart-kit-boilerplate/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
 'use strict';
 
 let app = {
-    name: 'Tailstart - Boilerplate',
-    version: '0.1.1',
+    name: 'Tailstart Kit - Boilerplate',
+    version: '0.2.0',
 };
 
 app.elements = {
-    footerCurrentYear: document.getElementById('footer-current-year'),
+    darkModeToggle: document.getElementById('dark-mode-toggle'),
+    footerYear: document.getElementById('footer-year'),
     footerAppName: document.getElementById('footer-app-name'),
     footerAppVersion: document.getElementById('footer-app-version'),
 };
@@ -33,28 +34,30 @@ app.event = {
         const target = event.target;
 
         if (target.closest('[id="dark-mode-toggle"]')) {
-            app.view.updateDarkMode();
+            app.view.toggleDarkMode();
+        } else if (target.closest('[id="navbar-menu-toggle"]')) {
+            app.view.toggleNavbarMenu();
         }
     },
 
     handleWindowResize: () => {
-        app.view.updateViewportHeight();
+        app.view.toggleViewportHeight();
     },
 };
 
 app.view = {
     init: () => {
-        app.view.updateViewportHeight();
-        app.view.updateAppInfo();
+        app.view.toggleViewportHeight();
+        app.view.toggleAppInfo();
     },
 
-    // Update the height of the viewport. This is a workaround fix for [viewport height issue on mobile browsers](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser) 
-    updateViewportHeight: () => {
+    // Toggle the height of the viewport. This is a workaround fix for [viewport height issue on mobile browsers](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser) 
+    toggleViewportHeight: () => {
         document.documentElement.style.setProperty('--vh', (window.innerHeight * 0.01) + 'px');
     },
 
-    // Update dark mode based on value in 'localStorage.theme'
-    updateDarkMode: () => {
+    // Toggle dark mode based on value in 'localStorage.theme'
+    toggleDarkMode: () => {
         app.util.toggleTransition();
 
         const isLightMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
@@ -62,10 +65,10 @@ app.view = {
         document.documentElement.classList.toggle('dark', isLightMode);
     },
 
-    // Update the footer with current year, app name, and version
-    updateAppInfo: () => {
-        if (app.elements.footerCurrentYear) {
-            app.elements.footerCurrentYear.innerHTML = new Date().getFullYear();
+    // Toogle footer data for year and app name
+    toggleAppInfo: () => {
+        if (app.elements.footerYear) {
+            app.elements.footerYear.innerHTML = new Date().getFullYear();
         }
 
         if (app.elements.footerAppName) {
