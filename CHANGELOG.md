@@ -16,10 +16,10 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
-## [0.2.0] - 2022-07-04
+## [0.2.0] - 2022-07-05
 ### Changed
 - Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
-- Update functions and variables naming for more concise convention.
+- Restructure `app.js` functions for more conventional standards.
 
 ## [0.1.1] - 2022-06-29
 ### Added
@@ -30,4 +30,4 @@ Put unreleased changes here.
 
 ## [0.1.0] - 2022-06-24
 ### Added
--                   vb First release.
+- First release.
