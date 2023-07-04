@@ -16,13 +16,18 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
+## [0.2.0] - 2022-07-04
+### Changed
+- Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
+- Update functions and variables naming for more concise convention.
+
 ## [0.1.1] - 2022-06-29
 ### Added
-* Github source code button
+- Github source code button
 
 ### Changed
-* Revise content to adhere with style guideline.
+- Revise content to adhere with style guideline.
 
 ## [0.1.0] - 2022-06-24
 ### Added
-* First release.
+-                   vb First release.
