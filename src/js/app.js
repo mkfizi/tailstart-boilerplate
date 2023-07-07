@@ -81,6 +81,7 @@
             },
 
             init: () => {
+                app.views.viewportHeight.toggle();
                 app.views.footer.toggle();
             }
         },
