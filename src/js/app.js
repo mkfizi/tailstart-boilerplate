@@ -59,9 +59,9 @@
                 toggle: () => {
                     app.utils.transition.toggle();
         
-                    const isLightMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
-                    localStorage.theme = isLightMode ? 'dark' : 'light';
-                    document.documentElement.classList.toggle('dark', isLightMode);
+                    const isDarkMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
+                    localStorage.theme = isDarkMode ? 'dark' : 'light';
+                    document.documentElement.classList.toggle('dark', isDarkMode);
                 }
             },
 
