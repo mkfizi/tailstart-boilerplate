@@ -49,6 +49,8 @@
         },
 
         views: {
+            // Workaround fix to handle viewport height issue on mobile browsers
+            // https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser
             viewportHeight: {
                 toggle: () => {
                     document.documentElement.style.setProperty('--vh', (window.innerHeight * 0.01) + 'px');
@@ -56,6 +58,7 @@
             },
 
             darkMode: {
+                // Toggle dark mode
                 toggle: () => {
                     app.utils.transition.toggle();
         
@@ -66,6 +69,7 @@
             },
 
             footer: {
+                // Update footer information
                 toggle: () => {
                     if (app.elements.node.footer.year) {
                         app.elements.node.footer.year.innerHTML = new Date().getFullYear();
@@ -88,6 +92,7 @@
 
         utils: {
             transition: {
+                // Temporary disable and enable CSS transitions
                 toggle: () => {
                     const transitions = document.querySelectorAll('.transition, .transition-all, .transition-colors, .transition-opacity, .transition-shadow, .transition-transform');
                     for (const transition of transitions) {
