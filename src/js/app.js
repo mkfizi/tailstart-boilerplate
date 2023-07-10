@@ -60,7 +60,14 @@
             darkMode: {
                 // Toggle dark mode
                 toggle: () => {
-                    app.utils.transition.toggle();
+                    // Toggle transition classes to prevent FOUC
+                    const transitions = document.querySelectorAll('.transition, .transition-all, .transition-colors, .transition-opacity, .transition-shadow, .transition-transform');
+                    for (const transition of transitions) {
+                        transition.classList.add('transition-none');
+                        setTimeout(() => {
+                            transition.classList.remove('transition-none');
+                        }, 100);
+                    }
         
                     const isDarkMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
                     localStorage.theme = isDarkMode ? 'dark' : 'light';
@@ -87,21 +94,6 @@
             init: () => {
                 app.views.viewportHeight.toggle();
                 app.views.footer.toggle();
-            }
-        },
-
-        utils: {
-            transition: {
-                // Temporary disable and enable CSS transitions
-                toggle: () => {
-                    const transitions = document.querySelectorAll('.transition, .transition-all, .transition-colors, .transition-opacity, .transition-shadow, .transition-transform');
-                    for (const transition of transitions) {
-                        transition.classList.add('transition-none');
-                        setTimeout(() => {
-                            transition.classList.remove('transition-none');
-                        }, 100);
-                    }
-                }
             }
         },
 
