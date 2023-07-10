@@ -16,7 +16,7 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
-## [0.2.0] - 2022-07-08
+## [0.2.0] - 2022-07-10
 ### Changed
 - Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
 - Restructure `app.js` functions to use IIFE for more conventional standards.
