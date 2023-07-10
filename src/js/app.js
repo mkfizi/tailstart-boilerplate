@@ -21,7 +21,7 @@
                 footer: {
                     year: document.getElementById('footer-year'),
                     appName: document.getElementById('footer-app-name'),
-                    appVersion: document.getElementById('footer-app-version'),
+                    appVersion: document.getElementById('footer-app-version')
                 }
             }
         },
@@ -85,6 +85,7 @@
                     if (app.elements.node.footer.appName) {
                         app.elements.node.footer.appName.innerHTML = app.name;
                     }
+                    
                     if (app.elements.node.footer.appVersion) {
                         app.elements.node.footer.appVersion.innerHTML = app.version;
                     }
