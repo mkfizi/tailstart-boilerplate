@@ -15,7 +15,7 @@
         elements: {
             id: {
                 darkMode: {
-                    toggle: 'dark-mode-toggle'
+                    toggle: 'darkmode-toggle'
                 }
             },
 
