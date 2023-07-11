@@ -11,13 +11,14 @@
     const app = {
         name: 'Tailstart Kit - Boilerplate',
         version:'0.2.0',
+        
         elements: {
             id: {
                 darkMode: {
                     toggle: 'dark-mode-toggle'
                 }
             },
-            
+
             node: {
                 footer: {
                     year: document.getElementById('footer-year'),
