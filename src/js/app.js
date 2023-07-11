@@ -14,7 +14,7 @@
         elements: {
             id: {
                 darkMode: {
-                    toggle: "dark-mode-toggle"
+                    toggle: 'dark-mode-toggle'
                 }
             },
             node: {
@@ -85,7 +85,7 @@
                     if (app.elements.node.footer.appName) {
                         app.elements.node.footer.appName.innerHTML = app.name;
                     }
-                    
+
                     if (app.elements.node.footer.appVersion) {
                         app.elements.node.footer.appVersion.innerHTML = app.version;
                     }
