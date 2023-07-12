@@ -16,10 +16,14 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
-## [0.2.0] - 2022-07-10
+## [0.2.0] - 2022-07-13
 ### Changed
 - Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
-- Restructure `app.js` functions to use IIFE for more conventional standards.
+- Adapt `app.js` to use IIFE for more conventional standards.
+- Rewrite `app` object for more structured content.
+
+### Removed
+- Remove unnecessary toogle all transition function since there's no transition classes.
 
 ## [0.1.1] - 2022-06-29
 ### Added
