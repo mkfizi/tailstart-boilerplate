@@ -40,7 +40,7 @@
                     app.element.footerAppName.innerHTML = app.name;
                 }
                 
-                if (app.element.footerAppName) {
+                if (app.element.footerAppVersion) {
                     app.element.footerAppVersion.innerHTML = app.version;
                 }
             }
