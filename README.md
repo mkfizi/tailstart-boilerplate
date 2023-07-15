@@ -2,9 +2,9 @@
 TailwindCSS boilerplate for any type web development projects.
 
 ## Features
-* Dark mode toggle.
-* [Viewport height mobile browser issue](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser) fix.
-* Accesibility compliant.
+* Dark mode toggle: Users can switch between light and dark modes for better readability and preference.
+* [Viewport height mobile browser issue](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser) fix: Ensures consistent rendering of elements using the `vh` unit across different mobile browsers.
+* Accesibility compliant: The website is designed with accessibility considerations in mind to provide a better user experience for all users.
 
 ## Installation
 Clone this repository to get started.
