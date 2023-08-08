@@ -19,7 +19,7 @@
         footerAppName: document.getElementById('footer-app-name'),
         footerAppVersion: document.getElementById('footer-app-version'),
     }
-    
+
     app.view = {
         viewportHeight: {
             // Workaround fix to handle viewport height issue on mobile browsers
@@ -39,7 +39,7 @@
                 if (app.element.footerAppName) {
                     app.element.footerAppName.innerHTML = app.name;
                 }
-                
+
                 if (app.element.footerAppVersion) {
                     app.element.footerAppVersion.innerHTML = app.version;
                 }
