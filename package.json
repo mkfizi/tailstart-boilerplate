@@ -1,11 +1,14 @@
 {
-	"name": "",
-	"version": "0.0.1",
-	"description": "",
-	"main": "",
-	"keywords": [],
-	"author": "",
-	"license": "",
+	"name": "tailstart-kit-boilerplate",
+	"version": "0.2.0",
+	"description": "Boilerplate starter kit for Tailstart Kit in HTML and Javascript.",
+	"keywords": [
+		"Tailwindcss",
+		"Starter Kit",
+		"Boilerplate"
+	],
+	"author": "hi@mkfizi.dev",
+	"license": "MIT",
 	"scripts": {
 		"build": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/app.css ",
 		"watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/app.css --watch"
