@@ -1,6 +1,6 @@
 /**
  * --------------------------------------------------------------------------
- * Tailstart Kit - Boilerplate v0.2.0: app.js
+ * Tailstart Kit - Boilerplate Starter Kit v0.2.0: app.js
  * Licensed under MIT (https://github.com/mkfizi/tailstartkit-starter-boilerplate/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
@@ -10,7 +10,7 @@
 
     const app = {};
 
-    app.name = 'Tailstart Kit - Boilerplate';
+    app.name = 'Tailstart Kit - Boilerplate Starter Kit';
     app.version = '0.2.0';
 
     app.element = {
