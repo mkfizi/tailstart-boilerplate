@@ -1,5 +1,5 @@
 # Tailstart Kit - Boilerplate Starter Kit
-[Tailstart Kit](https://mkfizi.dev/tailstart-kit/) boilerplate starter kit in HTML and Javascript.
+[Tailstart Kit](https://mkfizi.dev/tailstartkit/) boilerplate starter kit in HTML and Javascript.
 
 ## Variant
 - [HTML + AlpineJS](https://github.com/mkfizi/tailstartkit-starter-boilerplate-alpine)
