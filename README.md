@@ -1,5 +1,5 @@
 # Tailstart Kit - Boilerplate
-TailwindCSS boilerplate starter kit for any type web development projects.
+[Tailstart Kit](https://mkfizi.dev/tailstart-kit/) boilerplate starter kit in HTML and Javascript.
 
 ## Variant
 - [HTML + AlpineJS](https://github.com/mkfizi/tailstart-kit-boilerplate-alpine)
