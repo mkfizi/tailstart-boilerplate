@@ -1,4 +1,4 @@
-# Tailstart Kit - Boilerplate
+# Tailstart Kit - Boilerplate Starter Kit
 [Tailstart Kit](https://mkfizi.dev/tailstart-kit/) boilerplate starter kit in HTML and Javascript.
 
 ## Variant
