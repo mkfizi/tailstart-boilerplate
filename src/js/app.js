@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Tailstart Kit - Boilerplate Starter Kit v0.2.0: app.js
- * Licensed under MIT (https://github.com/mkfizi/tailstartkit-starter-boilerplate/blob/main/LICENSE)
+ * Tailstart - Boilerplate Starter Kit v0.3.0: app.js
+ * Licensed under MIT (https://github.com/tailstart/starterkit-boilerplate/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -10,8 +10,8 @@
 
     const app = {};
 
-    app.name = 'Tailstart Kit - Boilerplate Starter Kit';
-    app.version = '0.2.0';
+    app.name = 'Tailstart - Boilerplate Starter Kit';
+    app.version = '0.3.0';
 
     app.element = {
         darkModeToggle: document.getElementById('dark-mode-toggle'),
