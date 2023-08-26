@@ -1,7 +1,7 @@
 {
-	"name": "tailstartkit-starter-boilerplate",
-	"version": "0.2.0",
-	"description": "Tailstart Kit boilerplate starter kit in HTML and Javascript.",
+	"name": "@tailstart/starterkit-boilerplate",
+	"version": "0.3.0",
+	"description": "Tailstart boilerplate starter kit.",
 	"keywords": [
 		"Tailwindcss",
 		"Starter Kit",
