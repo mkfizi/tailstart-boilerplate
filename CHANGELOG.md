@@ -16,22 +16,27 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
-## [0.2.0] - 2022-07-13
+## [0.3.0] - 2023-08-26
 ### Changed
-- Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
+- Update app name.
+- Revise button appearance.
+
+## [0.2.0] - 2023-07-13
+### Changed
+- Revise content style to follow [Tailstart UI Kit](https://github.com/tailstart/uikit-styleguide).
 - Adapt `app.js` to use IIFE for more conventional standards.
 - Rewrite `app` object for more structured content.
 
 ### Removed
 - Remove unnecessary toogle all transition function since there's no transition classes.
 
-## [0.1.1] - 2022-06-29
+## [0.1.1] - 2023-06-29
 ### Added
 - Github source code button
 
 ### Changed
 - Revise content to adhere with style guideline.
 
-## [0.1.0] - 2022-06-24
+## [0.1.0] - 2023-06-24
 ### Added
 - First release.
