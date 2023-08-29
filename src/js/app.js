@@ -22,6 +22,7 @@
 
     app.view = {
         viewportHeight: {
+
             // Workaround fix to handle viewport height issue on mobile browsers
             // https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser
             toggle: () => {
@@ -30,6 +31,7 @@
         },
 
         footer: {
+
             // Toggle footer content with current year, app name and version
             toggle: () => {
                 if (app.element.footerCurrentYear) {
@@ -48,6 +50,7 @@
 
 
         darkMode: {
+
             // Toggle dark mode
             toggle: () => {
                 const isDarkMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
@@ -65,6 +68,7 @@
 
     app.event = {
         document: {
+
             // Handle document 'click event
             click: event => {
                 const targetElement = event.target.closest('[id]');
@@ -79,6 +83,7 @@
         },
 
         window: {
+            
             // Handle window 'resize' event
             resize: () => {
                 app.view.viewportHeight.toggle();
