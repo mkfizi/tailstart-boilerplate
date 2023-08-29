@@ -20,6 +20,8 @@ Put unreleased changes here.
 ### Changed
 - Update app name.
 - Revise button appearance.
+- Revise content padding size.
+- Revise footer appearance.
 
 ## [0.2.0] - 2023-07-13
 ### Changed
