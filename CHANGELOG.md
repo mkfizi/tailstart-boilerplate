@@ -29,7 +29,6 @@ Put unreleased changes here.
 
 ## [0.2.0] - 2023-07-13
 ### Changed
-- Revise content style to follow [Tailstart UI Kit](https://github.com/tailstart/uikit-styleguide).
 - Adapt `app.js` to use IIFE for more conventional standards.
 - Rewrite `app` object for more structured content.
 
