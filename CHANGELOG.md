@@ -16,6 +16,10 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
+## [0.3.1] - 2023-10-18
+### Changed
+- Revise metadata.
+
 ## [0.3.0] - 2023-08-26
 ### Changed
 - Update app name.
