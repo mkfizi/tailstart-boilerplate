@@ -19,6 +19,8 @@ Put unreleased changes here.
 ## [0.3.1] - 2023-10-18
 ### Changed
 - Revise metadata.
+- Revise content padding size.
+- Remove `404.html` page dependencies.
 
 ## [0.3.0] - 2023-08-26
 ### Changed
