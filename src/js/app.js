@@ -30,10 +30,20 @@
             }
         },
 
+        darkMode: {
+
+            // Toggle dark mode
+            toggle: () => {
+                const isDarkMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
+                localStorage.theme = isDarkMode ? 'dark' : 'light';
+                document.documentElement.classList.toggle('dark', isDarkMode);
+            }
+        },
+
         footer: {
 
-            // Toggle footer content with current year, app name and version
-            toggle: () => {
+            // Inbitialize footer content with current year, app name and version
+            init: () => {
                 if (app.element.footerCurrentYear) {
                     app.element.footerCurrentYear.innerHTML = new Date().getFullYear();
                 }
@@ -48,20 +58,10 @@
             }
         },
 
-        darkMode: {
-
-            // Toggle dark mode
-            toggle: () => {
-                const isDarkMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
-                localStorage.theme = isDarkMode ? 'dark' : 'light';
-                document.documentElement.classList.toggle('dark', isDarkMode);
-            }
-        },
-
         // Initialize view
         init: () => {
             app.view.viewportHeight.toggle();
-            app.view.footer.toggle();
+            app.view.footer.init();
         }
     }
 
@@ -73,7 +73,7 @@
                 const targetElement = event.target.closest('[id]');
                 if (targetElement) {
                     
-                    // Delegated method calls using switch case on element id
+                    // Delegate method calls using switch case on element id
                     switch (targetElement.id) {
                         case app.element.darkModeToggle?.id:
                             app.view.darkMode.toggle();
