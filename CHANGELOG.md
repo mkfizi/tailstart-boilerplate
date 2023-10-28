@@ -21,6 +21,7 @@ Put unreleased changes here.
 - Revise metadata.
 - Revise content padding size.
 - Remove `404.html` page dependencies.
+- Simplify navbar.
 
 ## [0.3.0] - 2023-08-26
 ### Changed
