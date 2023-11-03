@@ -16,6 +16,10 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
+## [0.3.2] - 2023-11-04
+### Changed
+- Change link colours to `neutral-500` for light mode.
+
 ## [0.3.1] - 2023-10-18
 ### Changed
 - Revise metadata.
